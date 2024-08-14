@@ -4,7 +4,7 @@ This is a Spring Boot application that provides an API for retrieving the best m
 
 ## Prerequisites
 
-- Java 11
+- Java 17
 - Maven
 
 ## Getting Started
