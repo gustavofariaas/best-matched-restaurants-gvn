@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm
+                                     http://xmlns.jcp.org/xml/ns/persistence/orm_2_0.xsd" version="2.1">
+
+
+    <named-query name="Restaurant.retrieveRestaurantInformation">
+        <query>
+            SELECT
+            rest.name AS restaurantName,
+            rest.customer_rating as customerRating,
+            rest.distance as distance,
+            rest.price as price,
+            cuisine.name as cuisineName
+            FROM Restaurant rest
+            Left join Cuisine cuisine On rest.cuisine_id = cuisine.id
+
+        </query>
+    </named-query>
+
+
+</entity-mappings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

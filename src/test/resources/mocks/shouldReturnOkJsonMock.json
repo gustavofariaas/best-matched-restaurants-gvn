@@ -1,0 +1,23 @@
+[
+  {
+    "restaurantName": "Deliciouszilla",
+    "customerRating": 4,
+    "distance": 1,
+    "price": 15,
+    "cuisineName": "Chinese"
+  },
+  {
+    "restaurantName": "Gusto Delicious",
+    "customerRating": 5,
+    "distance": 3,
+    "price": 50,
+    "cuisineName": "Chinese"
+  },
+  {
+    "restaurantName": "Deliciouszen",
+    "customerRating": 2,
+    "distance": 6,
+    "price": 30,
+    "cuisineName": "French"
+  }
+]
