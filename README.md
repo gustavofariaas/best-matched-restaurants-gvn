@@ -34,7 +34,7 @@ mvn test
 
 1. To get the list of matched restaurants, you can use the following endpoint curl:
 ```bash
-curl --location 'http://localhost:8080/getListOfMatchedRestaurants?restaurantName=&price=20&customerRating=5&cuisine=chinese&distance=1' 
+curl --location 'http://localhost:8080/getListOfMatchedRestaurants?restaurantName=Pal&price=60&customerRating=1&cuisine=Italian&distance=8'
 ```
 2. If you have Postman, you can also use it to test the cURL command. Just import the collection file in the root of the project and run the request.
 
