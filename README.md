@@ -35,6 +35,8 @@ mvn test
 1. To get the list of matched restaurants, you can use the following endpoint curl:
 ```bash
 curl --location 'http://localhost:8080/getListOfMatchedRestaurants?restaurantName=Pal&price=60&customerRating=1&cuisine=Italian&distance=8'
+
+
 ```
 2. If you have Postman, you can also use it to test the cURL command. Just import the collection file in the root of the project and run the request.
 
@@ -59,7 +61,7 @@ curl --location 'http://localhost:8080/getListOfMatchedRestaurants?restaurantNam
 7. Having the filtered data, the app call the transformer to transform the data from a list of projection to a list of DTO, to make it better for the sort part.
 8. Now we need to sort the data according to what was asked in the Project. The priority of sort is -> distance -> customer rating -> price and the random decided will be the restaurant name.
 8. In the sort, I've used List.sort with comparator.
-9. After the sort, the service class will return to the controller the maximun of 5 results fromn the list of DTO. 
+9. After the sort, the service class will return to the controller the maximum of 5 results from the list of DTO. 
 
 
 Built With:
